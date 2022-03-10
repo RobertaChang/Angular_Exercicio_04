@@ -1,0 +1,11 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 20px;
+}
+
+.card2 {
+    color: green !important;
+}

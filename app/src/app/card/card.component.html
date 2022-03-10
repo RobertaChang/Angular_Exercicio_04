@@ -1,0 +1,15 @@
+<mat-card class="app-card" [style]="'background-color: ' + bg + ';' ">
+    <mat-card-header>
+        <mat-card-title class="titulo" [style]="'color: ' + cor + ';' ">{{titulo}}<br/></mat-card-title>
+        <mat-card-subtitle class="preco" [style]="'color: ' + cor + ';' "><b>{{preco}}</b></mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content [style]="'height: ' + altura + ';' ">
+        <div class="linha1" [style]="'color: ' + cor + ';' "><p>{{info1}} Storage</p><br/></div>
+        <mat-divider></mat-divider >
+        <div class="linha2" [style]="'color: ' + cor + ';' "><p>{{info2}} Users Allowed</p><br/></div>
+        <mat-divider></mat-divider>
+        <div class="linha3" [style]="'color: ' + cor + ';' "><p>Send Up to {{info3}} GB</p><br/></div>
+        <mat-divider></mat-divider>
+    </mat-card-content>
+    <button mat-button class="btn" mat-stroked-button (click)="alertar()">Learn More</button>
+</mat-card>

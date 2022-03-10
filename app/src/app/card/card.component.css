@@ -1,0 +1,48 @@
+button {
+    background-color: #5e9ca3;
+    color: white;
+    font-style: italic;
+}
+
+mat-card-subtitle {
+    font-size: medium
+}
+
+mat-divider {
+    width: auto;
+    height: auto;
+}
+
+.app-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.linha1 {
+    color: maroon;
+    font-weight: 2;
+    font-size: medium;
+}
+
+.linha2 {
+    font-weight: 2;
+    font-size: medium;
+}
+
+.linha3 {
+    font-weight: 2;
+    font-size: medium;
+}
+
+.titulo {
+    font-weight: 2;
+    font-size: medium;
+}
+
+.preco {
+    font-weight: 5;
+    font-size: large;
+}
